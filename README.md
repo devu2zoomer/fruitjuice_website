@@ -321,9 +321,9 @@ This project is intended for educational and learning purposes.
 
 # 👨‍💻 Author
 
-**Akilen J K
   Abhijith S
-  Devananth R S**
+  Akilen J K
+  Devananth R S
 
 Full Stack Developer
 
