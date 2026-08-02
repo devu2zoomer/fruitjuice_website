@@ -1,0 +1,31 @@
+{
+  "name": "da-fresh-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for Da Fresh (Express + MongoDB) with user auth and admin dashboard",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed:admin": "node seed/createAdmin.js",
+    "seed:products": "node seed/seedProducts.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "glob": "^13.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "allowScripts": {
+    "@scarf/scarf@1.4.0": true
+  }
+}
